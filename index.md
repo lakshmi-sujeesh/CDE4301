@@ -27,7 +27,7 @@ Myopia progression is fastest between ages 7 and 18, stabilizing as corneal curv
 When a child presents themselves with rapidly progressing myopia (faster than –1.25 diopters/year) [8], treatment options for myopia progression control include prescription of Atropine eye drops, myopia control soft contact lenses, Ortho-keratology (Ortho-k) hard lenses, myopia control spectacles and combination therapy (Figure 1). 
 
 <div align=center>
-![Figure 1: Comparison of different myopia control methods](./figures/myopia-control-options.png)
+![Figure 1: Comparison of different myopia control methods](./figures/myopia-control-options.jpg)
 <p align=center>Figure 1: Comparison of different myopia control methods</p>
 </div>
 
