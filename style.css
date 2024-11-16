@@ -124,8 +124,8 @@ textarea,
 input {
     font-family: Helvetica Neue, Open Sans, sans-serif;
     line-height: 1.6;
-    font-size: 14px;
-    color: #000000;
+    font-size: 13px;
+    color: #505050;
 }
 
 @media (max-width: 480px) {
@@ -134,17 +134,17 @@ input {
     td,
     textarea,
     input {
-        font-size: 13px;
+        font-size: 12px;
     }
 }
 
 a {
-    color: #1f8484;
+    color: #2badad;
     text-decoration: none;
 }
 
 a:hover {
-    color: #0e4a4a;
+    color: #228a8a;
 }
 
 /* ----------------------------------------------------------------------------
