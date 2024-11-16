@@ -124,8 +124,8 @@ textarea,
 input {
     font-family: Helvetica Neue, Open Sans, sans-serif;
     line-height: 1.6;
-    font-size: 13px;
-    color: #505050;
+    font-size: 14px;
+    color: #000000;
 }
 
 @media (max-width: 480px) {
