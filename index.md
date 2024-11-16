@@ -27,7 +27,8 @@ Myopia progression is fastest between ages 7 and 18, stabilizing as corneal curv
 When a child presents themselves with rapidly progressing myopia (faster than –1.25 diopters/year) [8], treatment options for myopia progression control include prescription of Atropine eye drops, myopia control soft contact lenses, Ortho-keratology (Ortho-k) hard lenses, myopia control spectacles and combination therapy (Figure 1). 
 
 <div align=center>
-![Figure 1: Comparison of different myopia control methods](./figures/myopia-control-options.png)
+<!-- ![Figure 1: Comparison of different myopia control methods](./figures/myopia-control-options.jpg) -->
+<img src="figures/myopia-control-options.jpg" alt="drawing" width="500"/>
 <p align=center>Figure 1: Comparison of different myopia control methods</p>
 </div>
 
@@ -41,7 +42,37 @@ For this project, three key stakeholders, namely myopic children, parents, and c
 ### 2.2. Existing Solutions
 
 <div align=center>
-TABLE
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-0pky">Solution   </th>
+    <th class="tg-0pky">   <br>Benefits    </th>
+    <th class="tg-0pky">   <br>Disadvantages   </th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">   <br>Fingers  </td>
+    <td class="tg-0pky">   <br>· Most Used<br>   <br>· Easy   control of placement angle<br>   <br>· Tactile   feedback on correct lens placement<br>   <br>· Easy to clean and maintain<br>   <br>    </td>
+    <td class="tg-0pky">   <br>· Long time required to master technique for safe insertion and   removal<br>   <br>· Inconvenient   to do at any location<br>   <br>· Not   able to secure lens properly<br>   <br>· Risk   of infection if hands or fingernails are unclean<br>   <br>· Lens often sticks to fingers and does not come off easily   during insertion   </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">   <br>Soft tip tweezer applicator<br>    </td>
+    <td class="tg-0pky">   <br>· More hygienic than fingers since there is no direct hand   contact with lens<br>   <br>· Improved grip compared to fingers for lens removal<br>   <br>· Easy to secure and dislodge lens when having dry eyes   </td>
+    <td class="tg-0pky">   <br>· Risks eye injury due to improper usage<br>   <br>· Long time required to master technique for safe insertion and   removal<br>   <br>· Maintenance of sterility<br>   <br>· Appears frightening to use<br>   <br>· Not able to secure lens properly each time<br>   <br>· Lack of tactile feedback if placement is accurate   </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">   <br>Contacts   removal pincher (soft lens) / plunger (hard lens) tool</td>
+    <td class="tg-0pky">· More hygienic than fingers since there is no direct hand   contact with lens<br>   <br>· Improved grip compared to fingers for lens removal<br>   <br>· Easy to secure and dislodge lens when having dry eyes</td>
+    <td class="tg-0pky">· Risks eye injury due to improper usage<br>   <br>· Long time required to master technique for safe insertion and   removal<br>   <br>· Maintenance of sterility<br>   <br>· Appears frightening to use<br>   <br>· Not able to secure lens properly each time<br>   <br>· Lack of tactile feedback if placement is accurate</td>
+  </tr>
+</tbody></table>
 <p align=center>Table 1: Comparison of existing solutions to remove and insert contact lenses based on myopic patients’ interview responses [13]</p>
 </div>
 
@@ -50,7 +81,31 @@ TABLE
 Based on interviews with stakeholders, key insights were extracted to better understand why most parents and children choose not to opt for myopia control contact lenses when presented with the option (Appendix 7.2). These insights then translated into need statements and used to inform the product’s design requirements as shown below in Table 2.
 
 <div align=center>
-TABLE
+<table style="border-collapse:collapse;border-spacing:0" class="tg"><thead>
+<tr><th style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Customer Statement&nbsp;&nbsp;&nbsp;</th><th style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>Needs Statement &nbsp;&nbsp;&nbsp;</th><th style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>Design Requirements&nbsp;&nbsp;&nbsp;</th>
+<th style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>Metric&nbsp;&nbsp;&nbsp;</th></tr>
+</thead>
+<tbody>
+<tr><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>“I can’t keep my eyelids open when I bring my fingers close to my&nbsp;&nbsp;&nbsp;eyes”<br>&nbsp;&nbsp;&nbsp;<br> <br>&nbsp;&nbsp;&nbsp;<br>_Stakeholder:&nbsp;&nbsp;&nbsp;Patient – Myopic Child_&nbsp;&nbsp;&nbsp;</td><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>The product keeps the eyelids open during lens insertion and&nbsp;&nbsp;&nbsp;removal.&nbsp;&nbsp;&nbsp;</td>
+<td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>The product prevents eyelids from closing&nbsp;&nbsp;&nbsp;during insertion and removal process (need)<br>&nbsp;&nbsp;&nbsp;<br> &nbsp;&nbsp;&nbsp;</td><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>Time taken that eyelids are kept open is same as duration of&nbsp;&nbsp;&nbsp;insertion &amp; removal process<br>&nbsp;&nbsp;&nbsp;(Unit: *minutes*)&nbsp;&nbsp;&nbsp;</td></tr>
+<tr><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>“It’s very uncomfortable to repeatedly push the plunger to touch&nbsp;&nbsp;&nbsp;my eyeball, takes me very long”<br>&nbsp;&nbsp;&nbsp;<br> <br>&nbsp;&nbsp;&nbsp;<br>_Stakeholder:&nbsp;&nbsp;&nbsp;Patient – Myopic Child_&nbsp;&nbsp;&nbsp;</td><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>The product can remove and insert the lenses quickly&nbsp;&nbsp;&nbsp;</td>
+<td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>1.<span style="font-weight:normal;font-style:normal">        &nbsp;&nbsp;&nbsp;</span>The product can help secure and remove contact&nbsp;&nbsp;&nbsp;lens from the cornea of the eye within 2 tries or less (Appendix 7.2.3)<br>&nbsp;&nbsp;&nbsp;<br> &nbsp;&nbsp;&nbsp;</td>
+<td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>1.<span style="font-weight:normal;font-style:normal">        &nbsp;&nbsp;&nbsp;</span>Average number of attempts to insert contact lens in eye with tool <br>&nbsp;&nbsp;&nbsp;<br> <br>&nbsp;&nbsp;&nbsp;<br>(Range:&nbsp;&nbsp;&nbsp;≤ 2 *attempts*)<br>&nbsp;&nbsp;&nbsp;<br> &nbsp;&nbsp;&nbsp;</td></tr>
+<tr><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br> &nbsp;&nbsp;&nbsp;</td><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br> &nbsp;&nbsp;&nbsp;</td><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>2.<span style="font-weight:normal;font-style:normal">        &nbsp;&nbsp;&nbsp;</span>The product exerts a force on the contact lens&nbsp;&nbsp;&nbsp;that can overcome the force of the eye on the lens.<br>&nbsp;&nbsp;&nbsp;<br> &nbsp;&nbsp;&nbsp;</td>
+<td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>2.<span style="font-weight:normal;font-style:normal">        &nbsp;&nbsp;&nbsp;</span>Force of tool on cornea during lens removal &gt; surface tension&nbsp;&nbsp;&nbsp;forces around the contact lens periphery pulling the lens toward the cornea&nbsp;&nbsp;&nbsp;[15]<br>&nbsp;&nbsp;&nbsp;<br> <br>&nbsp;&nbsp;&nbsp;<br>(Range:&nbsp;&nbsp;&nbsp;&gt;0.27 *Newtons*) [16]&nbsp;&nbsp;&nbsp;</td></tr>
+<tr><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br> &nbsp;&nbsp;&nbsp;</td><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br> &nbsp;&nbsp;&nbsp;</td><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>3.<span style="font-weight:normal;font-style:normal">        &nbsp;&nbsp;&nbsp;</span>The time taken by the product to insert and&nbsp;&nbsp;&nbsp;remove lenses ≤ 10 minutes (Appendix 7.2.3)&nbsp;&nbsp;&nbsp;</td>
+<td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>3.<span style="font-weight:normal;font-style:normal">        &nbsp;&nbsp;&nbsp;</span>Average time taken to insert and remove contact lens in eye with tool<br>&nbsp;&nbsp;&nbsp;<br> <br>&nbsp;&nbsp;&nbsp;<br>(Range:&nbsp;&nbsp;&nbsp;≤  10 *minutes*)&nbsp;&nbsp;&nbsp;</td></tr>
+<tr><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>“I can’t take out the lenses if my hands are dirty, I always need&nbsp;&nbsp;&nbsp;to make sure my hands are clean and wash them before I wear my lenses”<br>&nbsp;&nbsp;&nbsp;<br> <br>&nbsp;&nbsp;&nbsp;<br>_Stakeholder:&nbsp;&nbsp;&nbsp;Patient – Myopic Child_&nbsp;&nbsp;&nbsp;</td><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>The product maintains sterility of lenses.&nbsp;&nbsp;&nbsp;</td>
+<td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>The product should ensure that contact&nbsp;&nbsp;&nbsp;lenses is as hygienic during insertion compared to its sterility right after&nbsp;&nbsp;&nbsp;cleaning. (Appendix 7.2.3)<br>&nbsp;&nbsp;&nbsp;<br> &nbsp;&nbsp;&nbsp;</td><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>No. of colony-forming units (CFUs) on lenses after using the tool <br>&nbsp;&nbsp;&nbsp;<br> <br>&nbsp;&nbsp;&nbsp;<br>(Range: ≤ baseline *CFUs* before tool was used)&nbsp;&nbsp;&nbsp;</td></tr>
+<tr><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>“It's so scary what if it scratches my eye”<br>&nbsp;&nbsp;&nbsp;<br> <br>&nbsp;&nbsp;&nbsp;<br>_Stakeholder:&nbsp;&nbsp;&nbsp;Patient – Myopic Child_&nbsp;&nbsp;&nbsp;</td><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>1.<span style="font-weight:normal;font-style:normal">        &nbsp;&nbsp;&nbsp;</span>The product does not cause injury from putting in or&nbsp;&nbsp;&nbsp;removing contact lenses&nbsp;&nbsp;&nbsp;</td>
+<td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>1.<span style="font-weight:normal;font-style:normal">        &nbsp;&nbsp;&nbsp;</span>The product does not cause abrasions on corneal surface (need)&nbsp;&nbsp;&nbsp;</td><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>1.<span style="font-weight:normal;font-style:normal">        &nbsp;&nbsp;&nbsp;</span>Number of abrasions on cornea same as before use of tool (= initial&nbsp;&nbsp;&nbsp;*no. of abrasions*)&nbsp;&nbsp;&nbsp;</td></tr>
+<tr><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br> &nbsp;&nbsp;&nbsp;</td><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>2.<span style="font-weight:normal;font-style:normal">        &nbsp;&nbsp;&nbsp;</span>The product reduces fear of injury from&nbsp;&nbsp;&nbsp;wearing lenses among children.&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>2.<span style="font-weight:normal;font-style:normal">        &nbsp;&nbsp;&nbsp;</span>The product visually does not invoke a fear of injury.&nbsp;&nbsp;&nbsp;</td><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>2. Tool has a higher&nbsp;&nbsp;&nbsp;rating on Visual Analogue Scale (VAS) (1-10) regarding perceived pain&nbsp;&nbsp;&nbsp;compared to using competitor products [17] <br>&nbsp;&nbsp;&nbsp;<br> <br>&nbsp;&nbsp;&nbsp;<br>(Range:&nbsp;&nbsp;&nbsp;&gt;7)&nbsp;&nbsp;&nbsp;</td></tr>
+<tr><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>“I can’t keep helping my child to put on the lens every time, I am&nbsp;&nbsp;&nbsp;too busy for that and can’t accompany my child to school”<br>&nbsp;&nbsp;&nbsp;<br> <br>&nbsp;&nbsp;&nbsp;<br>_Stakeholder: Parent/Caretaker_&nbsp;&nbsp;&nbsp;</td><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>The product simple enough for the child to use on their own.&nbsp;&nbsp;&nbsp;</td>
+<td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>The product allows independent usage by&nbsp;&nbsp;&nbsp;the child.<br>&nbsp;&nbsp;&nbsp;<br> &nbsp;&nbsp;&nbsp;</td><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>Time taken by child to use tool on his/her own<br>&nbsp;&nbsp;&nbsp;(Unit: *minutes*)&nbsp;&nbsp;&nbsp;</td></tr>
+<tr><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>“The session to teach them how to wear the lens takes way too&nbsp;&nbsp;&nbsp;long, I can use this time to clear more patients”<br>&nbsp;&nbsp;&nbsp;<br> <br>&nbsp;&nbsp;&nbsp;<br>_Stakeholder: Clinician - Optometrist_&nbsp;&nbsp;&nbsp;</td><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>The product allows contact lens wearers to put on contact lenses&nbsp;&nbsp;&nbsp;quickly.&nbsp;&nbsp;&nbsp;</td>
+<td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>The product&nbsp;&nbsp;&nbsp;reduces chair-time for contact lens wearers from the current 1.5 hours to&nbsp;&nbsp;&nbsp;under 10 minutes.&nbsp;&nbsp;&nbsp;</td><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>Average time&nbsp;&nbsp;&nbsp;taken to insert and remove contact lens in eye with tool<br>&nbsp;&nbsp;&nbsp;<br> <br>&nbsp;&nbsp;&nbsp;<br>(Range: ≤ 10&nbsp;&nbsp;&nbsp;*minutes*)</td></tr>
+</tbody></table>
 <p align=center>Table 2: Evaluation of stakeholders’ needs and corresponding design requirements [13][14]</p>
 </div>
 
@@ -73,23 +128,206 @@ Unlike existing contact lens insertion and removal methods such as usage of fing
 ### 4.1. Concept Generation
 Based on the customers’ needs and design requirements of the product, Table 3 below shows the various concepts that were generated.
 
-<div align=center>
-![Table 3: Morphological chart for concept generation](./figures/concept-gen-morph-chart.png)
-<p align=center>Table 3: Morphological chart for concept generation</p>
-</div>
-### 4.2. Selected Concept
 
+<div align=center>
+<img src="figures/concept-gen-morph-chart.png" alt="drawing" width="500"/>
+<p align=center>Table 3: Morphological chart for concept generation</p>
+<img src="figures/fig2-c1-eyewash.png" alt="drawing" width="500"/>
+<p align=center>Figure 2: Concept 1 (Eyewash cup) sketch</p>
+<img src="figures/fig3-c2-flipoutspecs.png" alt="drawing" width="500"/>
+<p align=center>Figure 3: Concept 2 (Flip out spectacles) sketch</p>
+<img src="figures/fig4-c3-finger-glovesketch.png" alt="drawing" width="500"/>
+<p align=center>Figure 4: Concept 3 (Finger glove suction) sketch</p>
+</div>
+
+### 4.2. Selected Concept
+Weights were assigned for the 3 main pain points identified by stakeholders based on the importance that they ranked these pain points in the survey.
+
+For the tool safety perception category, the flip out spectacles was ranked the highest as the concept of using spectacles is already very familiar and comfortable to children, making them more likely to perceive it as a safe option for lens insertion.
+
+Looking at the lens hygiene aspect of the tool, the eyewash cup was ranked the lowest as it requires transferring from the lens packaging to the plunger using fingers, while the flip out spectacles comes directly out of the packaging and hence does not require any external lens contact by the user.
+
+The eyewash cup and flip out spectacles are equally convenient to use, given that they can be carried around and stored in a safe and clean manner, without the need to find a mirror to check lens alignment on cornea. For the finger glove suction, it is slightly less convenient to use as the user might require a mirror to check positioning and alignment before insertion and removal of lens.
+
+Given these ratings for the selection criteria, concept 2, the flip out spectacles have been deemed to be the selected concept as it significantly outweighed the other concepts.
+
+<div align=center>
+TABLE
+<p align=center>Table 4: Concept selection table</p>
+</div>
+
+This product concept – Flip out spectacles - consists of certain features and their functions as well as how they address our customers’ needs will be explained in detail in the table below (Table 4).
+
+<div align=center>
+TABLE
+<p align=center>Table 5: Breakdown of product concept</p>
+</div>
 ## 5. Initial Prototyping and Testing (and Challenges)
+
+<div align=center>
+<img src="figures/fig5-suction-pluger-sperical.png" alt="drawing" width="500"/>
+<p align=center>Figure 5: (a) Suction cup made of PVC, (b) 45 Angled DMV plunger made of rubber latex, (c) Spherical surface used to mimic corneal surface</p>
+</div>
+
 ### 5.1. Testing of adherence of lens insertion
+Testing of lens adherence on the corneal surface was done using a Vertical Automatic Handy Test stand, where the PVC Suction cup with soft lens attached was set to shift down till it reaches compression point on the sphere, and following which it would shift up to measure the tensional force at a constant rate of 2 mm/minute. The set-up is as shown in Figure 6 below.
+
+The purpose of this test was to determine the force required by the suction cup at the point where the lens adheres onto the mimicked corneal surface
+
+<div align=center>
+<img src="figures/fig-6-setup.png" alt="drawing" width="500"/>
+<p align=center>Figure 6: Experiment set-up using automatic test stand and standard size PVC suction cup before (left) and after (right) suction cup touches spherical surface</p>
+</div>
+
 ### 5.2. Testing of adherence of lens removal
+
+<div align=center>
+<img src="figures/fig7-setup.png" alt="drawing" width="500"/>
+<p align=center>Figure 7a: Force sensor experimental set-up using PVC suction cup, with saline solution added to stimulate tear film on corneal surface</p>
+</div>
+
+<div align=center>
+<img src="figures/fig-8-setup.png" alt="drawing" width="500"/>
+<p align=center>Figure 7b: Force sensor experimental set-up using 45 Degree DMV plunger, showing reading upon contact of plunger containing lenses upon contact with surface.</p>
+</div>
+
+<div align=center>
+<table style="border-collapse:collapse;border-spacing:0" class="tg"><thead>
+<tr><th style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;</th><th style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>Trial 1&nbsp;&nbsp;&nbsp;</th><th style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>Trial 2&nbsp;&nbsp;&nbsp;</th>
+<th style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>Trial 3&nbsp;&nbsp;&nbsp;</th><th style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>Average&nbsp;&nbsp;&nbsp;</th></tr>
+</thead>
+<tbody>
+<tr><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>DMV Plunger&nbsp;&nbsp;&nbsp;</td><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>0.01&nbsp;&nbsp;&nbsp;</td><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>0.01&nbsp;&nbsp;&nbsp;</td>
+<td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>0.01&nbsp;&nbsp;&nbsp;</td><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>0.01&nbsp;&nbsp;&nbsp;</td></tr>
+<tr><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>PVC Suction&nbsp;&nbsp;&nbsp;cup&nbsp;&nbsp;&nbsp;</td><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>0.02&nbsp;&nbsp;&nbsp;</td><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>0.04&nbsp;&nbsp;&nbsp;</td>
+<td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>0.03&nbsp;&nbsp;&nbsp;</td><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">   <br>0.03</td></tr>
+</tbody></table>
+<p align=center>Table 6: Average values of force measurements.</p>
+</div>
 
 ## 6. Future Work
 
 ## 7. Appendix
 ### 7.1. Existing Myopia Correction Options
+
+<div align=center>
+<img src="figures/existing-myopia-correction-options.png" alt="drawing" width="500"/>
+<p align=center>Figure XX: Competitive landscape representation of various myopia progression control methods</p>
+</div>
+
 ### 7.2. Key Survey Findings
+
+<div align=center>
+<img src="figures/survey-finding-pie.png" alt="drawing" width="500"/>
+<p align=center>Figure 9: Most preferred myopia correction method</p>
+</div>
+
+<div align=center>
+<img src="figures/survey-finding-correct-vision.png" alt="drawing" width="500"/>
+<p align=center>Figure 10: List of Myopia correction methods used </p>
+</div>
+
+<div align=center>
+<img src="figures/survey-finding-contact-pain-pts.png" alt="drawing" width="500"/>
+<p align=center>Figure 11: Contact lens usage pain points </p>
+</div>
+
+<div align=center>
+<img src="figures/survey-finding-contact-pain-pie.png" alt="drawing" width="500"/>
+<p align=center>Figure 12: Contact lens users pain points</p>
+</div>
+
+
 ### 7.3. Key Interview Findings - Optometrists and Opthalmologists
+<div align=center>
+<img src="figures/represent-clinical-flow.png" alt="drawing" width="500"/>
+<p align=center>Figure 13: Representation of clinical flow in selection of contact lenses option for myopia control based on interview findings (Source: Dr Foo Li Lian, private optometrists)</p>
+</div>
 ### 7.4. Key Interview Findings - Children and Parents, Myopic Patients
 
-## 8. References
+<div align=center>
+<img src="figures/fig14-patientflow.png" alt="drawing" width="500"/>
+<p align=center>Figure 14: Representation of patient flow in selection of contact lenses option for myopia control using Leaky Bucket Model (Source: Dr Foo Li Lian, SNEC, HPB, private optometrists)</p>
+</div>
 
+<div align=center>
+<table style="border-collapse:collapse;border-spacing:0" class="tg"><thead><tr><th style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"><span style="color:black">Pain point category</span>&nbsp;&nbsp;&nbsp;</th><th style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br><span style="color:black">Interview Insights</span>&nbsp;&nbsp;&nbsp;</th></tr></thead>
+<tbody>
+<tr><td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br><span style="color:black">Discomfort &amp; Safety concerns from lens usage</span>&nbsp;&nbsp;&nbsp;</td>
+<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>·<span style="font-weight:normal;font-style:normal">       </span><span style="color:black">Patients that did use contacts experienced dry&nbsp;&nbsp;&nbsp;eyes and worried about injury on removal </span><br>&nbsp;&nbsp;&nbsp;<br>·<span style="font-weight:normal;font-style:normal">       </span><span style="color:black">ranked highest (10 on a scale of 1-10) on&nbsp;&nbsp;&nbsp;survey</span><br>&nbsp;&nbsp;&nbsp;<br>·<span style="font-weight:normal;font-style:normal">       </span><span style="color:black">Existing products on the market that help&nbsp;&nbsp;&nbsp;remove and insert contact lenses were ranked &lt;7 (on a Likert scale of&nbsp;&nbsp;&nbsp;1-10) regarding their likeliness of the product being safe enough for use</span><br>&nbsp;&nbsp;&nbsp;<br>·<span style="font-weight:normal;font-style:normal">      &nbsp;&nbsp;&nbsp;</span><span style="color:black">Fear of eye injury and discomfort from improper lens&nbsp;&nbsp;&nbsp;insertion/removal technique</span><br>&nbsp;&nbsp;&nbsp;<br>·<span style="font-weight:normal;font-style:normal">      &nbsp;&nbsp;&nbsp;</span><span style="color:black">Often takes multiple attempts to remove and place lens in the&nbsp;&nbsp;&nbsp;correct position (at least 4-5 tries) for first time wearers</span><br>&nbsp;&nbsp;&nbsp;<br>·<span style="font-weight:normal;font-style:normal">      &nbsp;&nbsp;&nbsp;</span><span style="color:black">Can take up to 2 hours to learn how to wear lenses for the first&nbsp;&nbsp;&nbsp;time (most patients take about 1-1.5 hours to learn how to wear the lens)</span>&nbsp;&nbsp;&nbsp;</td>
+</tr>
+<tr><td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br><span style="color:black">Maintaining lens hygiene</span>&nbsp;&nbsp;&nbsp;</td>
+<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;<br><span style="color:black">Fear of potential&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;eye infections that may arise due to improper lens hygiene, especially&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for monthly wear</span><br>&nbsp;&nbsp;&nbsp;&nbsp;<br><span style="color:black">Most opt for daily&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;wear contact lens options to minimise risk of infection</span><br>&nbsp;&nbsp;&nbsp;&nbsp;<br><span style="color:black">Process of&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;maintaining sterile lenses and ensuring cleanliness is frustrating even&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;after many years</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td></tr>
+<tr><td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br><span style="color:black">Lack of convenience of lens wearing</span>&nbsp;&nbsp;&nbsp;</td>
+<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;<br><span style="color:black">Parents prioritise&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;their children being able to put on and remove lenses without always&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;having to rely on parents to do it for them</span><br>&nbsp;&nbsp;&nbsp;&nbsp;<br><span style="color:black">Parents lack the&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;time to spend early in the morning every day to help their child put on&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;their lenses and often find it a chore, opting to not go for contact&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lenses when presented with the option</span><br>&nbsp;&nbsp;&nbsp;&nbsp;<br><span style="color:black">Children often lack&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the skill and correct technique to open their eyelids with their own fingers,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;so the parents have to help them open their eyelids and insert the&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lenses</span><br>&nbsp;&nbsp;&nbsp;&nbsp;<br><span style="color:black">Parents who are&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;contact lens wearers are more likely to be open to accepting contact&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lenses as a myopia progression control option for their child</span>&nbsp;&nbsp;&nbsp;</td>
+</tr>
+</tbody></table>
+<p align=center>Table 7: Top 3 pain points regarding usage of contact lenses from myopic patient interviews</p>
+</div>
+
+## 8. References
+[1] ‘Nearsightedness (Myopia) | National Eye Institute’. Available: https://www.nei.nih.gov/learn-about-eye-health/eye-conditions-and-diseases/nearsightedness-myopia. [Accessed: Nov. 15, 2024]
+
+ 
+
+[2] ‘Nearsightedness: What Is Myopia?’, American Academy of Ophthalmology, Nov. 07, 2024. Available: https://www.aao.org/eye-health/diseases/myopia-nearsightedness. [Accessed: Nov. 15, 2024]
+
+ 
+
+[3] B. A. Holden et al., ‘Global Prevalence of Myopia and High Myopia and Temporal Trends from 2000 through 2050’, Ophthalmology, vol. 123, no. 5p, pp. 1036–1042, May 2016, doi: http://dx.doi.org/10.1016/j.ophtha.2016.01.006. Available: https://www.aaojournal.org/article/S0161-6420(16)00025-7/fulltext
+
+ 
+
+[4] Ministry of Health, ‘Speech By Dr Lam Pin Min, Senior Minister of State for Health, At the Opening for Singapore National Eye Centre’, Speech By Dr Lam Pin Min, Senior Minister of State for Health, At the Opening for Singapore National Eye Centre, Aug. 16, 2019. Available: https://www.moh.gov.sg/newsroom/speech-by-dr-lam-pin-min-senior-minister-of-state-for-health-at-the-opening-of-the-singapore-national-eye-centre-s-myopia-centre-16-august-2019. [Accessed: Nov. 15, 2024]
+
+ 
+
+[5] ‘Myopia’. Available: https://www.snec.com.sg:443/research-innovation/research-groups-platforms/research-groups/myopia. [Accessed: Nov. 15, 2024]
+
+ 
+
+[6] D. Tricard, S. Marillet, P. Ingrand, M. A. Bullimore, R. R. A. Bourne, and N. Leveziel, ‘Progression of myopia in children and teenagers: a nationwide longitudinal study’, British Journal of Ophthalmology, vol. 106, no. 8, pp. 1104–1109, Aug. 2022, doi: 10.1136/bjophthalmol-2020-318256. Available: https://bjo.bmj.com/content/106/8/1104. [Accessed: Nov. 16, 2024]
+
+ 
+
+[7] M. A. Bullimore et al., ‘IMI—Onset and Progression of Myopia in Young Adults’, Investigative Ophthalmology & Visual Science, vol. 64, no. 6, p. 2, May 2023, doi: 10.1167/iovs.64.6.2. Available: https://pmc.ncbi.nlm.nih.gov/articles/PMC10153577/. [Accessed: Nov. 16, 2024]
+
+ 
+
+[8] S. Matsumura et al., ‘Annual Myopia Progression and Subsequent 2-Year Myopia Progression in Singaporean Children’, Translational Vision Science & Technology, vol. 9, no. 13, p. 12, Dec. 2020, doi: 10.1167/tvst.9.13.12. Available: https://pmc.ncbi.nlm.nih.gov/articles/PMC7726587/. [Accessed: Nov. 16, 2024]
+
+ 
+
+[9] J. Bao et al., ‘One-year myopia control efficacy of spectacle lenses with aspherical lenslets’, British Journal of Ophthalmology, vol. 106, no. 8, pp. 1171–1176, Aug. 2022, doi: 10.1136/bjophthalmol-2020-318367. Available: https://bjo.bmj.com/content/106/8/1171. [Accessed: Nov. 16, 2024]
+
+ 
+
+[10] C. Lanca, C. P. Pang, and A. Grzybowski, ‘Effectiveness of myopia control interventions: A systematic review of 12 randomized control trials published between 2019 and 2021’, Frontiers in Public Health, vol. 11, p. 1125000, Mar. 2023, doi: 10.3389/fpubh.2023.1125000. Available: https://pmc.ncbi.nlm.nih.gov/articles/PMC10076805/. [Accessed: Nov. 16, 2024]
+
+ 
+
+[11] H. Lv, Z. Liu, J. Li, Y. Wang, Y. Tseng, and X. Li, ‘Long-Term Efficacy of Orthokeratology to Control Myopia Progression’, Eye & Contact Lens, vol. 49, no. 9, p. 399, Jul. 2023, doi: 10.1097/ICL.0000000000001017. Available: https://pmc.ncbi.nlm.nih.gov/articles/PMC10442101/. [Accessed: Nov. 16, 2024]
+
+ 
+
+[12] H.-R. Tsai, J.-H. Wang, H.-K. Huang, T.-L. Chen, P.-W. Chen, and C.-J. Chiu, ‘Efficacy of atropine, orthokeratology, and combined atropine with orthokeratology for childhood myopia: A systematic review and network meta-analysis’, Journal of the Formosan Medical Association, vol. 121, no. 12, pp. 2490–2500, Dec. 2022, doi: 10.1016/j.jfma.2022.05.005. Available: https://www.sciencedirect.com/science/article/pii/S0929664622002108. [Accessed: Nov. 16, 2024]
+
+ 
+
+[13] V. Chen, K. Halim, J. Yung, D. Yap, D. Lo, and J. Leong, ‘Interviews with myopic patients’, Aug. 08, 2024. Available: https://docs.google.com/spreadsheets/d/1OWrjkkcqs339WvKRt8eUxgZZM-8rob_jT5-HqUBz6F8/edit?usp=sharing
+
+ 
+
+[14] L. L. Foo and Jia Ling, ‘Interview with optometrists and opthalmologists’, Aug. 08, 2024.
+
+ 
+
+[15] T. T. Hayashi, Fatt, and Irving, ‘Forces Retaining a Contact Lens on the Eye between Blinks.’, American Academy of Optometry, vol. Optometry and Vision Science, pp. 485–507, Aug. 1980.
+
+ 
+
+[16] M.-C. Hsiao, Y.-C. Yen, C.-H. Wang, Y.-N. Chen, S.-P. Wang, and K.-C. Su, ‘Biomechanical evaluation of different plunger size and plunger position on removing soft contact lenses and rigid gas permeable contact lenses’, Technology and Health Care, vol. 32, no. 6, pp. 4109–4121, Jan. 2024, doi: 10.3233/THC-231983. Available: https://content.iospress.com/articles/technology-and-health-care/thc231983. [Accessed: Nov. 16, 2024]
+
+ 
+
+[17] R. Du Toit, N. Pritchard, S. Heffernan, T. Simpson, and D. Fonn, ‘A Comparison of Three Different Scales for Rating Contact Lens Handling’:, Optometry and Vision Science, vol. 79, no. 5, pp. 313–320, May 2002, doi: 10.1097/00006324-200205000-00011. Available: http://journals.lww.com/00006324-200205000-00011. [Accessed: Nov. 16, 2024]
