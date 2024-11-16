@@ -134,17 +134,17 @@ input {
     td,
     textarea,
     input {
-        font-size: 12px;
+        font-size: 13px;
     }
 }
 
 a {
-    color: #2badad;
+    color: #1f8484;
     text-decoration: none;
 }
 
 a:hover {
-    color: #228a8a;
+    color: #0e4a4a;
 }
 
 /* ----------------------------------------------------------------------------
