@@ -1,4 +1,5 @@
-# Interim Report
+# EIM-456: Revolutionizing contact lenses handling for improved user experience (CDE4301 Interim Report)
+**_Done By: Lakshmi Sujeesh (A0238379M)_**
 
 ## Acknowledgements
 I would like to express my heartfelt gratitude to the Duke-NUS Health Innovator Programme (DHIP) for providing this invaluable opportunity to take on this project as part of CDE4301. My sincere thanks go to Dr. Foo Li Lian, my clinical mentor from Singapore National Eye Centre (SNEC), for her exceptional guidance in problem clarification, planning immersive clinical experiences, and offering insightful interviews and feedback that shaped the direction of this project. I am also deeply grateful to Ms Ashley Whitroff from Johnson & Johnson Vision Care, whose industry expertise and business insights significantly enriched my understanding of practical applications in the field of vision care.   
@@ -86,7 +87,7 @@ For this project, three key stakeholders, namely myopic children, parents, and c
 
 ### 2.3. Stakeholder Needs
 
-Based on interviews with stakeholders, key insights were extracted to better understand why most parents and children choose not to opt for myopia control contact lenses when presented with the option (Appendix 7.2). These insights then translated into need statements and used to inform the product’s design requirements as shown below in Table 2.
+Based on interviews with stakeholders, key insights were extracted to better understand why most parents and children choose not to opt for myopia control contact lenses when presented with the option (Appendix 7.2.). These insights then translated into need statements and used to inform the product’s design requirements as shown below in Table 2.
 
 <div align=center>
 <table style="border-collapse:collapse;border-spacing:0" class="tg"><thead>
@@ -97,7 +98,7 @@ Based on interviews with stakeholders, key insights were extracted to better und
 <tr><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>“I can’t keep my eyelids open when I bring my fingers close to my eyes”<br>&nbsp;&nbsp;&nbsp;<br> <br>&nbsp;&nbsp;&nbsp;<br>_Stakeholder:&nbsp;&nbsp;&nbsp;Patient – Myopic Child_&nbsp;&nbsp;&nbsp;</td><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>The product keeps the eyelids open during lens insertion and removal.&nbsp;&nbsp;&nbsp;</td>
 <td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>The product prevents eyelids from closing during insertion and removal process (need)<br>&nbsp;&nbsp;&nbsp;<br> &nbsp;&nbsp;&nbsp;</td><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>Time taken that eyelids are kept open is same as duration of insertion &amp; removal process<br>&nbsp;&nbsp;&nbsp;(Unit: *minutes*)&nbsp;&nbsp;&nbsp;</td></tr>
 <tr><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>“It’s very uncomfortable to repeatedly push the plunger to touch my eyeball, takes me very long”<br>&nbsp;&nbsp;&nbsp;<br> <br>&nbsp;&nbsp;&nbsp;<br>_Stakeholder:&nbsp;&nbsp;&nbsp;Patient – Myopic Child_&nbsp;&nbsp;&nbsp;</td><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>The product can remove and insert the lenses quickly&nbsp;&nbsp;&nbsp;</td>
-<td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>1.<span style="font-weight:normal;font-style:normal">        &nbsp;&nbsp;&nbsp;</span>The product can help secure and remove contact lens from the cornea of the eye within 2 tries or less (Appendix 7.2.3)<br>&nbsp;&nbsp;&nbsp;<br> &nbsp;&nbsp;&nbsp;</td>
+<td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>1.<span style="font-weight:normal;font-style:normal">        &nbsp;&nbsp;&nbsp;</span>The product can help secure and remove contact lens from the cornea of the eye within 2 tries or less (Appendix 7.2.3.)<br>&nbsp;&nbsp;&nbsp;<br> &nbsp;&nbsp;&nbsp;</td>
 <td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>1.<span style="font-weight:normal;font-style:normal">        &nbsp;&nbsp;&nbsp;</span>Average number of attempts to insert contact lens in eye with tool <br>&nbsp;&nbsp;&nbsp;<br> <br>&nbsp;&nbsp;&nbsp;<br>(Range:&nbsp;&nbsp;&nbsp;≤ 2 *attempts*)<br>&nbsp;&nbsp;&nbsp;<br> &nbsp;&nbsp;&nbsp;</td></tr>
 <tr><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br> &nbsp;&nbsp;&nbsp;</td><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br> &nbsp;&nbsp;&nbsp;</td><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>2.<span style="font-weight:normal;font-style:normal">        &nbsp;&nbsp;&nbsp;</span>The product exerts a force on the contact lens that can overcome the force of the eye on the lens.<br>&nbsp;&nbsp;&nbsp;<br> &nbsp;&nbsp;&nbsp;</td>
 <td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>2.<span style="font-weight:normal;font-style:normal">        &nbsp;&nbsp;&nbsp;</span>Force of tool on cornea during lens removal &gt; surface tension forces around the contact lens periphery pulling the lens toward the cornea [15]<br>&nbsp;&nbsp;&nbsp;<br> <br>&nbsp;&nbsp;&nbsp;<br>(Range: &gt; 0.27 *Newtons*) [16]&nbsp;&nbsp;&nbsp;</td></tr>
@@ -123,7 +124,7 @@ Myopic children and their parents face significant challenges in adopting myopia
 
 ### 2.5. Need Statement
 
-This project aims to improve the user-friendliness of contact lenses’ insertion and removal process to increase acceptance rates among myopic children aged 7 to 18 in Singapore from the current 20% acceptance rates (Appendix 7.2.3) to 30% (Appendix 7.2.1), thereby reducing the risk of high myopia and its associated complications.
+This project aims to improve the user-friendliness of contact lenses’ insertion and removal process to increase acceptance rates among myopic children aged 7 to 18 in Singapore from the current 20% acceptance rates (Appendix 7.2.3.) to 30% (Appendix 7.2.1), thereby reducing the risk of high myopia and its associated complications.
 
 ## 3. Value Proposition
 
@@ -140,17 +141,29 @@ Unlike existing contact lens insertion and removal methods such as usage of fing
 
 Based on the customers’ needs and design requirements of the product, Table 3 was used to generate various ideas and Figures 2 to 4 below shows the shortlisted concepts that were generated from Table 3 after discussion and iteration with Dr Foo. 
 
+<div><br></div>
 
 <div align=center>
-<img src="figures/concept-gen-morph-chart.png" alt="drawing" width="500"/>
+<img src="figures/concept-gen-morph-chart-clear.jpg" alt="drawing" width="500"/>
 <p align=center>Table 3: Morphological chart for concept generation</p>
-<img src="figures/fig2-c1-eyewash.png" alt="drawing" width="500"/>
+
+<div><br></div>
+
+<img src="figures/fig2-c1-eyewash.jpg" alt="drawing" width="500"/>
 <p align=center>Figure 2: Concept 1 (Eyewash cup) sketch</p>
-<img src="figures/fig3-c2-flipoutspecs.png" alt="drawing" width="500"/>
+
+<div><br></div>
+
+<img src="figures/fig3-c2-flipoutspecs.jpg" alt="drawing" width="500"/>
 <p align=center>Figure 3: Concept 2 (Flip out spectacles) sketch</p>
-<img src="figures/fig4-c3-finger-glovesketch.png" alt="drawing" width="500"/>
+
+<div><br></div>
+
+<img src="figures/fig4-c3-finger-glovesketch.jpg" alt="drawing" width="500"/>
 <p align=center>Figure 4: Concept 3 (Finger glove suction) sketch</p>
 </div>
+
+<div><br></div>
 
 ### 4.2. Selected Concept
 
@@ -163,16 +176,149 @@ Looking at the lens hygiene aspect of the tool, the eyewash cup was ranked the l
 The eyewash cup and flip out spectacles are equally convenient to use, given that they can be carried around and stored in a safe and clean manner, without the need to find a mirror to check lens alignment on cornea. For the finger glove suction, it is slightly less convenient to use as the user might require a mirror to check positioning and alignment before insertion and removal of lens. 
 Given these ratings for the selection criteria, concept 2, the flip out spectacles have been deemed to be the selected concept as it significantly outweighed the other concepts.
 
+<div> <br></div>
 
 <div align=center>
-TABLE
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-7ryv{background-color:#ecf4ff;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-7fle{background-color:#efefef;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-kftd{background-color:#efefef;text-align:left;vertical-align:top}
+.tg .tg-calz{background-color:#ecf4ff;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-m9r4{background-color:#ffffc7;text-align:left;vertical-align:top}
+</style>
+<table class="tg" style="undefined;table-layout: fixed; width: 925px"><colgroup>
+<col style="width: 177.2px">
+<col style="width: 57.2px">
+<col style="width: 105.2px">
+<col style="width: 115.2px">
+<col style="width: 100.2px">
+<col style="width: 145.2px">
+<col style="width: 102.2px">
+<col style="width: 122.2px">
+</colgroup>
+<thead>
+  <tr>
+    <th class="tg-kftd" colspan="2"><span style="color:black"> </span><br><span style="color:black">  </span></th>
+    <th class="tg-7fle" colspan="2"><span style="color:black">Concept 1: Eyewash cup</span></th>
+    <th class="tg-7fle" colspan="2"><span style="color:black">Concept 2: Flip out spectacles</span></th>
+    <th class="tg-7fle" colspan="2"><span style="color:black">Concept 3: Finger glove suction</span></th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-7ryv"><span style="color:black">Selection criteria</span></td>
+    <td class="tg-7ryv"><span style="color:black">Weight</span></td>
+    <td class="tg-calz"><span style="color:black">Rating (1 - 5)</span></td>
+    <td class="tg-calz"><span style="color:black">Weighted score</span></td>
+    <td class="tg-calz"><span style="color:black">Rating (1 - 5)</span></td>
+    <td class="tg-calz"><span style="color:black">Weighted score</span></td>
+    <td class="tg-calz"><span style="color:black">Rating (1 - 5)</span></td>
+    <td class="tg-calz"><span style="color:black">Weighted score</span></td>
+  </tr>
+  <tr>
+    <td class="tg-m9r4"><span style="color:black">Tool Safety Perception</span></td>
+    <td class="tg-baqh">0.5</td>
+    <td class="tg-baqh">4</td>
+    <td class="tg-baqh">2.0</td>
+    <td class="tg-baqh">5</td>
+    <td class="tg-baqh">2.5</td>
+    <td class="tg-baqh">4</td>
+    <td class="tg-baqh">2.0</td>
+  </tr>
+  <tr>
+    <td class="tg-m9r4"><span style="color:black">Lens Hygiene</span></td>
+    <td class="tg-baqh">0.3</td>
+    <td class="tg-baqh">3</td>
+    <td class="tg-baqh">0.9</td>
+    <td class="tg-baqh">5</td>
+    <td class="tg-baqh">1.5</td>
+    <td class="tg-baqh">4</td>
+    <td class="tg-baqh">1.2</td>
+  </tr>
+  <tr>
+    <td class="tg-m9r4"><span style="color:black">Convenience of tool usage</span></td>
+    <td class="tg-baqh">0.2</td>
+    <td class="tg-baqh">4</td>
+    <td class="tg-baqh">0.8</td>
+    <td class="tg-baqh">4</td>
+    <td class="tg-baqh">0.8</td>
+    <td class="tg-baqh">3</td>
+    <td class="tg-baqh">0.8</td>
+  </tr>
+  <tr>
+    <td class="tg-m9r4"><span style="color:black">Total Score</span><br><span style="color:black">(out of 5)</span></td>
+    <td class="tg-baqh">1.0</td>
+    <td class="tg-baqh">-</td>
+    <td class="tg-baqh">3.7</td>
+    <td class="tg-baqh">-</td>
+    <td class="tg-baqh">4.8</td>
+    <td class="tg-baqh">-</td>
+    <td class="tg-baqh">4.0</td>
+  </tr>
+  <tr>
+    <td class="tg-m9r4"><span style="color:black">Rank</span></td>
+    <td class="tg-baqh"> </td>
+    <td class="tg-baqh" colspan="2">2</td>
+    <td class="tg-baqh" colspan="2">1</td>
+    <td class="tg-baqh" colspan="2">3</td>
+  </tr>
+</tbody></table>
 <p align=center>Table 4: Concept selection table</p>
 </div>
+<div> <br></div>
 
 This product concept – Flip out spectacles - consists of certain features and their functions as well as how they address our customers’ needs will be explained in detail in the table below (Table 4).
 
+<div> <br></div>
+
 <div align=center>
-TABLE
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-b3sw{background-color:#efefef;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-b3sw">Product Feature</th>
+    <th class="tg-b3sw">Function</th>
+    <th class="tg-b3sw">How it meets customers’ needs</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax">Suction plunger</td>
+    <td class="tg-0lax">1.<span style="font-weight:normal;font-style:normal">       </span> Secure the lens in place for insertion and removal with negative pressure<br>2.<span style="font-weight:normal;font-style:normal">       </span> Provides outward suction force to overcome force exerted by tear film and surface tension forces around the contact lens periphery during removal<br>3.<span style="font-weight:normal;font-style:normal">       </span> Provides inward force for adherence of lens from plunger onto tear film during insertion</td>
+    <td class="tg-0lax">It helps to ensure that the lens can be placed on the cornea surface quickly without multiple attempts.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Magnetic control of plunger movement</td>
+    <td class="tg-0lax">Ensures that plunger movement is controlled and repeatable</td>
+    <td class="tg-0lax">User will not have to spend a long time learning the right technique as the motion is controlled by the magnets.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Peel off film with disposable lens pre-packaged inside</td>
+    <td class="tg-0lax">Eliminates need for handling lens using hand</td>
+    <td class="tg-0lax">This poses minimal risk of infections while ensuring hygiene standards are met without children or parents having to take responsibility to manually clean lens regularly.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Eyelid opener</td>
+    <td class="tg-0lax">Keep eyelids open during insertion and removal process</td>
+    <td class="tg-0lax">It prevents child from blinking due to reflex when plunger approaches eyeball for a quick insertion, without relying on help from parents to keep eyes open.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Child-friendly Spectacle design</td>
+    <td class="tg-0lax">Reduces anticipation of injury, provides stability to reduce risk of eye injuries from unintentional hand movement.</td>
+    <td class="tg-0lax">Child may be more willing to try out product and be less frightened as it looks like spectacles that they are already familiar and comfortable with. It also provides a stable means to help facilitate the insertion and removal process for children to reduce risk of injury.</td>
+  </tr>
+</tbody></table>
 <p align=center>Table 5: Breakdown of product concept</p>
 </div>
 
@@ -181,11 +327,17 @@ TABLE
 As of the date of submission of this report, the prototyping and testing has been focused towards refining the specifications of the suction plunger feature design within concept 2 to be able to properly secure the lens for insertion and removal.  Soft lenses from J&J Acuvue have been used in all testing conducted by far.
 Three types of work-like suction plungers were used as preliminary model to mimic the force and shape of the suction plunger design as shown below in Figures 5a and 5b. DMV plunger made of rubber latex and suction cup made of Polyvinyl Chloride (PVC) were used as prototypes for testing on a spherical plastic surface that was intended to mimic the corneal surface, with a diameter of 28mm, similar to that of the human eye [18] (Figure 5c).  To better simulate the moisture of human eye's tear film layer, 3 drops of saline solution was applied to the spherical surface during testing.
 
-
+<div>
+<br>
+</div>
 
 <div align=center>
 <img src="figures/fig5-suction-pluger-sperical.png" alt="drawing" width="500"/>
 <p align=center>Figure 5: (a) Suction cup made of PVC, (b) 45 Angled DMV plunger made of rubber latex, (c) Spherical surface used to mimic corneal surface</p>
+</div>
+
+<div>
+<br>
 </div>
 
 ### 5.1. Testing of adherence of lens insertion – Automatic force application
@@ -200,10 +352,27 @@ Moreover, the recorded forces were unexpectedly high, reaching values around 90 
 
 To address this issue, a refined testing method is required to apply an appropriate force to the spherical “eye” surface while avoiding excessive compression of the lenses. This adjustment would better simulate realistic conditions and ensure that the forces remain within safe and clinically relevant ranges.
 
+<div>
+<br>
+</div>
 
 <div align=center>
 <img src="figures/fig-6-setup.png" alt="drawing" width="500"/>
 <p align=center>Figure 6: Experiment set-up using automatic test stand and standard size PVC suction cup before (left) and after (right) suction cup touches spherical surface</p>
+</div>
+
+<div>
+<br><br>
+</div>
+
+<div align=center>
+<img src="figures/figure-7-aspirational-plot.jpg" alt="drawing" width="500"/>
+<p align=center>Figure 7: Expected graph plot for experiment (Aspirational plot)</p>
+
+</div>
+
+<div>
+<br>
 </div>
 
 ### 5.2. Testing of adherence of lens insertion – Manual force application
@@ -216,14 +385,8 @@ This entire experiment was repeated with the 45-degree and 90-degree DMV Plunger
 
 Therefore, moving forward, different materials of the plunger at a 45 degree insertion angle can be tested out to determine the most suitable material to provide minimal insertion peak force.
 
-<div align=center>
-<img src="figures/fig7-setup.png" alt="drawing" width="500"/>
-<p align=center>Figure 7a: Force sensor experimental set-up using PVC suction cup, with saline solution added to stimulate tear film on corneal surface</p>
-</div>
-
-<div align=center>
-<img src="figures/fig-8-setup.png" alt="drawing" width="500"/>
-<p align=center>Figure 7b: Force sensor experimental set-up using 45 Degree DMV plunger, showing reading upon contact of plunger containing lenses upon contact with surface.</p>
+<div>
+<br>
 </div>
 
 <div align=center>
@@ -277,7 +440,26 @@ Therefore, moving forward, different materials of the plunger at a 45 degree ins
 </table>
 <p align=center>Table 6: Average values of force measurements (in Newtons).</p>
 </div>
- 
+
+ <div>
+<br><br>
+</div>
+ <div align=center>
+<img src="figures/fig7-setup.png" alt="drawing" width="500"/>
+<p align=center>Figure 8: Force sensor experimental set-up using PVC suction cup, with saline solution added to stimulate tear film on corneal surface</p>
+</div>
+<div>
+<br><br>
+</div>
+
+<div align=center>
+<img src="figures/fig-8-setup.png" alt="drawing" width="500"/>
+<p align=center>Figure 9: Force sensor experimental set-up using 45 Degree DMV plunger, showing reading upon contact of plunger containing lenses upon contact with surface.</p>
+</div>
+<div>
+<br>
+</div>
+
 ### 5.3. Testing of adherence of lens removal
 
 The experiment conducted in 5.2. was repeated, except the purpose of the experiment was to now detach the contact lens on the “eyeball” surface by shifting up the force sensor manually. However, both angled DMV plungers as well as the silicon suction cup failed to adhere onto the surface of the contact lens strong enough to lift it off the eyeball surface, and hence no force values could be recorded. This indicates that the upward suction force exerted by the plunger materials (silicon and latex rubber) was insufficient to overcome the surface tension forces around the contact lens periphery pulling the lens toward the cornea. 
@@ -292,12 +474,16 @@ Component testing will be conducted in a laboratory setting to address biohazard
 
 
 <div align=center>
-<img src="gantt-chart.png" alt="drawing" width="500"/>
+<img src="figures/gantt-chart.png" alt="drawing" width="500"/>
 <p align=center>Figure 8: Gantt chart for future work</p>
 </div>
 
 ## 7. Appendix
 ### 7.1. Existing Myopia Correction Options
+
+<div>
+<br>
+</div>
 
 <div align=center>
 <img src="figures/existing-myopia-correction-options.png" alt="drawing" width="500"/>
@@ -305,10 +491,17 @@ Component testing will be conducted in a laboratory setting to address biohazard
 </div>
 
 ### 7.2. Key Survey Findings
+<div>
+<br>
+</div>
 
 <div align=center>
 <img src="figures/survey-finding-pie.png" alt="drawing" width="500"/>
 <p align=center>Figure 10: Most preferred myopia correction method</p>
+</div>
+
+<div>
+<br><br>
 </div>
 
 <div align=center>
@@ -316,9 +509,17 @@ Component testing will be conducted in a laboratory setting to address biohazard
 <p align=center>Figure 11: List of Myopia correction methods used </p>
 </div>
 
+<div>
+<br><br>
+</div>
+
 <div align=center>
 <img src="figures/survey-finding-contact-pain-pts.png" alt="drawing" width="500"/>
 <p align=center>Figure 12: Contact lens usage pain points </p>
+</div>
+
+<div>
+<br><br>
 </div>
 
 <div align=center>
@@ -326,17 +527,34 @@ Component testing will be conducted in a laboratory setting to address biohazard
 <p align=center>Figure 13: Contact lens users pain points</p>
 </div>
 
+<div>
+<br><br>
+</div>
+
 
 ### 7.3. Key Interview Findings - Optometrists and Opthalmologists
+
+<div>
+<br>
+</div>
+
 <div align=center>
 <img src="figures/represent-clinical-flow.png" alt="drawing" width="500"/>
 <p align=center>Figure 14: Representation of clinical flow in selection of contact lenses option for myopia control based on interview findings (Source: Dr Foo Li Lian, private optometrists)</p>
 </div>
 ### 7.4. Key Interview Findings - Children and Parents, Myopic Patients
 
+<div>
+<br><br>
+</div>
+
 <div align=center>
 <img src="figures/fig14-patientflow.png" alt="drawing" width="500"/>
 <p align=center>Figure 15: Representation of patient flow in selection of contact lenses option for myopia control using Leaky Bucket Model (Source: Dr Foo Li Lian, SNEC, HPB, private optometrists)</p>
+</div>
+
+<div>
+<br><br>
 </div>
 
 <div align=center>
@@ -369,6 +587,10 @@ Component testing will be conducted in a laboratory setting to address biohazard
   </tr>
 </tbody></table>
 <p align=center>Table 7: Top 3 pain points regarding usage of contact lenses from myopic patient interviews</p>
+</div>
+
+<div>
+<br>
 </div>
 
 ## 8. References
