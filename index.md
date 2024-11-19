@@ -229,25 +229,24 @@ Therefore, moving forward, different materials of the plunger at a 45 degree ins
 <div align=center>
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;
+  padding:10px 5px;word-break:normal;}
+.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
   overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg .tg-baqh{text-align:center;vertical-align:top}
 .tg .tg-kftd{background-color:#efefef;text-align:left;vertical-align:top}
-.tg .tg-ikmv{background-color:#cbcefb;text-align:left;vertical-align:top}
 .tg .tg-0lax{text-align:left;vertical-align:top}
-.tg .tg-cyze{background-color:#cbcefb;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-b3sw{background-color:#efefef;font-weight:bold;text-align:left;vertical-align:top}
 .tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
 </style>
 <table class="tg"><thead>
   <tr>
     <th class="tg-0lax"> </th>
-    <th class="tg-ikmv">Trial 1</th>
-    <th class="tg-ikmv">Trial 2</th>
-    <th class="tg-ikmv">Trial 3</th>
-    <th class="tg-cyze">Average (to 2 d.p.)</th>
-    <th class="tg-cyze">Standard deviation</th>
+    <th class="tg-kftd">Trial 1</th>
+    <th class="tg-kftd">Trial 2</th>
+    <th class="tg-kftd">Trial 3</th>
+    <th class="tg-b3sw">Average (to 2 d.p.)</th>
+    <th class="tg-b3sw">Standard deviation</th>
   </tr></thead>
 <tbody>
   <tr>
@@ -293,7 +292,7 @@ Component testing will be conducted in a laboratory setting to address biohazard
 
 
 <div align=center>
-<img src="Gantt chart.png" alt="drawing" width="500"/>
+<img src="gantt-chart.png" alt="drawing" width="500"/>
 <p align=center>Figure 8: Gantt chart for future work</p>
 </div>
 
