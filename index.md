@@ -490,7 +490,7 @@ Component testing will be conducted in a laboratory setting to address biohazard
 <p align=center>Figure 9: Competitive landscape representation of various myopia progression control methods</p>
 </div>
 
-### 7.2. Key Survey Findings
+### 7.2.1 Key Survey Findings
 <div>
 <br>
 </div>
@@ -532,7 +532,7 @@ Component testing will be conducted in a laboratory setting to address biohazard
 </div>
 
 
-### 7.3. Key Interview Findings - Optometrists and Opthalmologists
+### 7.2.2 Key Interview Findings - Optometrists and Opthalmologists
 
 <div>
 <br>
@@ -542,7 +542,8 @@ Component testing will be conducted in a laboratory setting to address biohazard
 <img src="figures/represent-clinical-flow.png" alt="drawing" width="500"/>
 <p align=center>Figure 14: Representation of clinical flow in selection of contact lenses option for myopia control based on interview findings (Source: Dr Foo Li Lian, private optometrists)</p>
 </div>
-### 7.4. Key Interview Findings - Children and Parents, Myopic Patients
+
+### 7.2.3. Key Interview Findings - Children and Parents, Myopic Patients
 
 <div>
 <br><br>
