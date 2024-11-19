@@ -227,22 +227,61 @@ Therefore, moving forward, different materials of the plunger at a 45 degree ins
 </div>
 
 <div align=center>
-<table style="border-collapse:collapse;border-spacing:0" class="tg"><thead>
-<tr><th style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;</th><th style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>Trial 1&nbsp;&nbsp;&nbsp;</th><th style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>Trial 2&nbsp;&nbsp;&nbsp;</th>
-<th style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>Trial 3&nbsp;&nbsp;&nbsp;</th><th style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>Average&nbsp;&nbsp;&nbsp;</th></tr>
-</thead>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-kftd{background-color:#efefef;text-align:left;vertical-align:top}
+.tg .tg-ikmv{background-color:#cbcefb;text-align:left;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg .tg-cyze{background-color:#cbcefb;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-0lax"> </th>
+    <th class="tg-ikmv">Trial 1</th>
+    <th class="tg-ikmv">Trial 2</th>
+    <th class="tg-ikmv">Trial 3</th>
+    <th class="tg-cyze">Average (to 2 d.p.)</th>
+    <th class="tg-cyze">Standard deviation</th>
+  </tr></thead>
 <tbody>
-<tr><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>DMV Plunger&nbsp;&nbsp;&nbsp;</td><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>0.01&nbsp;&nbsp;&nbsp;</td><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>0.01&nbsp;&nbsp;&nbsp;</td>
-<td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>0.01&nbsp;&nbsp;&nbsp;</td><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>0.01&nbsp;&nbsp;&nbsp;</td></tr>
-<tr><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>PVC Suction&nbsp;&nbsp;&nbsp;cup&nbsp;&nbsp;&nbsp;</td><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>0.02&nbsp;&nbsp;&nbsp;</td><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>0.04&nbsp;&nbsp;&nbsp;</td>
-<td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>0.03&nbsp;&nbsp;&nbsp;</td><td style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">   <br>0.03</td></tr>
-</tbody></table>
-<p align=center>Table 6: Average values of force measurements.</p>
+  <tr>
+    <td class="tg-kftd">45 Degree DMV Plunger</td>
+    <td class="tg-baqh">0.02</td>
+    <td class="tg-baqh">0.05</td>
+    <td class="tg-baqh">0.04</td>
+    <td class="tg-amwm">0.04</td>
+    <td class="tg-amwm">0.02</td>
+  </tr>
+  <tr>
+    <td class="tg-kftd">90 Degree DMV Plunger</td>
+    <td class="tg-baqh">0.09</td>
+    <td class="tg-baqh">0.10</td>
+    <td class="tg-baqh">0.08</td>
+    <td class="tg-amwm">0.09</td>
+    <td class="tg-amwm">0.01</td>
+  </tr>
+  <tr>
+    <td class="tg-kftd">PVC Suction cup</td>
+    <td class="tg-baqh">1.52</td>
+    <td class="tg-baqh">1.34</td>
+    <td class="tg-baqh">1.48</td>
+    <td class="tg-amwm">1.45</td>
+    <td class="tg-amwm">0.09</td>
+  </tr>
+</tbody>
+</table>
+<p align=center>Table 6: Average values of force measurements (in Newtons).</p>
 </div>
  
-## 5.3. Testing of adherence of lens removal
+### 5.3. Testing of adherence of lens removal
 
-The experiment conducted in 5.2 was repeated, except the purpose of the experiment was to now detach the contact lens on the “eyeball” surface by shifting up the force sensor manually. However, both angled DMV plungers as well as the silicon suction cup failed to adhere onto the surface of the contact lens strong enough to lift it off the eyeball surface, and hence no force values could be recorded. This indicates that the upward suction force exerted by the plunger materials (silicon and latex rubber) was insufficient to overcome the surface tension forces around the contact lens periphery pulling the lens toward the cornea. 
+The experiment conducted in 5.2. was repeated, except the purpose of the experiment was to now detach the contact lens on the “eyeball” surface by shifting up the force sensor manually. However, both angled DMV plungers as well as the silicon suction cup failed to adhere onto the surface of the contact lens strong enough to lift it off the eyeball surface, and hence no force values could be recorded. This indicates that the upward suction force exerted by the plunger materials (silicon and latex rubber) was insufficient to overcome the surface tension forces around the contact lens periphery pulling the lens toward the cornea. 
 
 Thus, moving forward, further testing needs to be conducted after using different type of plunger materials and sizes to see which one is the most suitable in being able to provide sufficient upward lifting force.
 
@@ -263,55 +302,72 @@ Component testing will be conducted in a laboratory setting to address biohazard
 
 <div align=center>
 <img src="figures/existing-myopia-correction-options.png" alt="drawing" width="500"/>
-<p align=center>Figure XX: Competitive landscape representation of various myopia progression control methods</p>
+<p align=center>Figure 9: Competitive landscape representation of various myopia progression control methods</p>
 </div>
 
 ### 7.2. Key Survey Findings
 
 <div align=center>
 <img src="figures/survey-finding-pie.png" alt="drawing" width="500"/>
-<p align=center>Figure 9: Most preferred myopia correction method</p>
+<p align=center>Figure 10: Most preferred myopia correction method</p>
 </div>
 
 <div align=center>
 <img src="figures/survey-finding-correct-vision.png" alt="drawing" width="500"/>
-<p align=center>Figure 10: List of Myopia correction methods used </p>
+<p align=center>Figure 11: List of Myopia correction methods used </p>
 </div>
 
 <div align=center>
 <img src="figures/survey-finding-contact-pain-pts.png" alt="drawing" width="500"/>
-<p align=center>Figure 11: Contact lens usage pain points </p>
+<p align=center>Figure 12: Contact lens usage pain points </p>
 </div>
 
 <div align=center>
 <img src="figures/survey-finding-contact-pain-pie.png" alt="drawing" width="500"/>
-<p align=center>Figure 12: Contact lens users pain points</p>
+<p align=center>Figure 13: Contact lens users pain points</p>
 </div>
 
 
 ### 7.3. Key Interview Findings - Optometrists and Opthalmologists
 <div align=center>
 <img src="figures/represent-clinical-flow.png" alt="drawing" width="500"/>
-<p align=center>Figure 13: Representation of clinical flow in selection of contact lenses option for myopia control based on interview findings (Source: Dr Foo Li Lian, private optometrists)</p>
+<p align=center>Figure 14: Representation of clinical flow in selection of contact lenses option for myopia control based on interview findings (Source: Dr Foo Li Lian, private optometrists)</p>
 </div>
 ### 7.4. Key Interview Findings - Children and Parents, Myopic Patients
 
 <div align=center>
 <img src="figures/fig14-patientflow.png" alt="drawing" width="500"/>
-<p align=center>Figure 14: Representation of patient flow in selection of contact lenses option for myopia control using Leaky Bucket Model (Source: Dr Foo Li Lian, SNEC, HPB, private optometrists)</p>
+<p align=center>Figure 15: Representation of patient flow in selection of contact lenses option for myopia control using Leaky Bucket Model (Source: Dr Foo Li Lian, SNEC, HPB, private optometrists)</p>
 </div>
 
 <div align=center>
-<table style="border-collapse:collapse;border-spacing:0" class="tg"><thead><tr><th style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"><span style="color:black">Pain point category</span>&nbsp;&nbsp;&nbsp;</th><th style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br><span style="color:black">Interview Insights</span>&nbsp;&nbsp;&nbsp;</th></tr></thead>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-c3ow">Pain point category</th>
+    <th class="tg-c3ow">Interview Insights and Literature review findings</th>
+  </tr></thead>
 <tbody>
-<tr><td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br><span style="color:black">Discomfort &amp; Safety concerns from lens usage</span>&nbsp;&nbsp;&nbsp;</td>
-<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>·<span style="font-weight:normal;font-style:normal">       </span><span style="color:black">Patients that did use contacts experienced dry&nbsp;&nbsp;&nbsp;eyes and worried about injury on removal </span><br>&nbsp;&nbsp;&nbsp;<br>·<span style="font-weight:normal;font-style:normal">       </span><span style="color:black">ranked highest (10 on a scale of 1-10) on&nbsp;&nbsp;&nbsp;survey</span><br>&nbsp;&nbsp;&nbsp;<br>·<span style="font-weight:normal;font-style:normal">       </span><span style="color:black">Existing products on the market that help&nbsp;&nbsp;&nbsp;remove and insert contact lenses were ranked &lt;7 (on a Likert scale of&nbsp;&nbsp;&nbsp;1-10) regarding their likeliness of the product being safe enough for use</span><br>&nbsp;&nbsp;&nbsp;<br>·<span style="font-weight:normal;font-style:normal">      &nbsp;&nbsp;&nbsp;</span><span style="color:black">Fear of eye injury and discomfort from improper lens&nbsp;&nbsp;&nbsp;insertion/removal technique</span><br>&nbsp;&nbsp;&nbsp;<br>·<span style="font-weight:normal;font-style:normal">      &nbsp;&nbsp;&nbsp;</span><span style="color:black">Often takes multiple attempts to remove and place lens in the&nbsp;&nbsp;&nbsp;correct position (at least 4-5 tries) for first time wearers</span><br>&nbsp;&nbsp;&nbsp;<br>·<span style="font-weight:normal;font-style:normal">      &nbsp;&nbsp;&nbsp;</span><span style="color:black">Can take up to 2 hours to learn how to wear lenses for the first&nbsp;&nbsp;&nbsp;time (most patients take about 1-1.5 hours to learn how to wear the lens)</span>&nbsp;&nbsp;&nbsp;</td>
-</tr>
-<tr><td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br><span style="color:black">Maintaining lens hygiene</span>&nbsp;&nbsp;&nbsp;</td>
-<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;<br><span style="color:black">Fear of potential&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;eye infections that may arise due to improper lens hygiene, especially&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for monthly wear</span><br>&nbsp;&nbsp;&nbsp;&nbsp;<br><span style="color:black">Most opt for daily&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;wear contact lens options to minimise risk of infection</span><br>&nbsp;&nbsp;&nbsp;&nbsp;<br><span style="color:black">Process of&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;maintaining sterile lenses and ensuring cleanliness is frustrating even&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;after many years</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td></tr>
-<tr><td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br><span style="color:black">Lack of convenience of lens wearing</span>&nbsp;&nbsp;&nbsp;</td>
-<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;<br><span style="color:black">Parents prioritise&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;their children being able to put on and remove lenses without always&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;having to rely on parents to do it for them</span><br>&nbsp;&nbsp;&nbsp;&nbsp;<br><span style="color:black">Parents lack the&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;time to spend early in the morning every day to help their child put on&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;their lenses and often find it a chore, opting to not go for contact&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lenses when presented with the option</span><br>&nbsp;&nbsp;&nbsp;&nbsp;<br><span style="color:black">Children often lack&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the skill and correct technique to open their eyelids with their own fingers,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;so the parents have to help them open their eyelids and insert the&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lenses</span><br>&nbsp;&nbsp;&nbsp;&nbsp;<br><span style="color:black">Parents who are&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;contact lens wearers are more likely to be open to accepting contact&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lenses as a myopia progression control option for their child</span>&nbsp;&nbsp;&nbsp;</td>
-</tr>
+  <tr>
+    <td class="tg-0pky">Discomfort &amp; Safety concerns from lens usage</td>
+    <td class="tg-0pky">·        Patients that did use contacts experienced dry eyes and worried about injury on removal<br><br>·        ranked highest (10 on a scale of 1-10) on survey<br><br>·        Existing products on the market that help remove and insert contact lenses were ranked &lt;7 (on a Likert scale of 1-10) regarding their likeliness of the product being safe enough for use<br><br>·        Fear of eye injury and discomfort from improper lens insertion/removal technique [22]<br><br>·        Often takes multiple attempts to remove and place lens in the correct position (at least 4-5 tries) for first time wearers<br><br>·        Can take up to 2 hours to learn how to wear lenses for the first time (most patients take about 1-1.5 hours to learn how to wear the lens)</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Maintaining lens hygiene</td>
+    <td class="tg-0pky">·        Fear of potential eye infections that may arise due to improper lens hygiene, especially for monthly wear<br><br>·        Most opt for daily wear contact lens options to minimise risk of infection<br><br>·        Process of maintaining sterile lenses and ensuring cleanliness is frustrating even after many years</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Lack of convenience of lens wearing</td>
+    <td class="tg-0pky">·        Parents prioritise their children being able to put on and remove lenses without always having to rely on parents to do it for them<br><br>·        Parents lack the time to spend early in the morning every day to help their child put on their lenses and often find it a chore, opting to not go for contact lenses when presented with the option<br><br>·        Children often lack the skill and correct technique to open their eyelids with their own fingers, so the parents have to help them open their eyelids and insert the lenses<br><br>·        Parents who are contact lens wearers are more likely to be open to accepting contact lenses as a myopia progression control option for their child</td>
+  </tr>
 </tbody></table>
 <p align=center>Table 7: Top 3 pain points regarding usage of contact lenses from myopic patient interviews</p>
 </div>
