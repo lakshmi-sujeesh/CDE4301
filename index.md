@@ -258,7 +258,7 @@ Given these ratings for the selection criteria, concept 2, the flip out spectacl
     <td class="tg-baqh">-</td>
     <td class="tg-baqh">4.8</td>
     <td class="tg-baqh">-</td>
-    <td class="tg-baqh">4.0</td>
+    <td class="tg-baqh">3.8</td>
   </tr>
   <tr>
     <td class="tg-m9r4"><span style="color:black">Rank</span></td>
